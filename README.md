@@ -2,7 +2,7 @@
 
 <div class="about">
   <p>Meu nome é Vitória, mas pode me chamar de Vi! Sou desenvolvedora web com preferência pelo Front-end. Acredito em um mundo onde os websites são dinâmicos e intuitivos, por isso, quero ajudar negócios e designers a colocarem em prática boas ideias.</p>
-  <img src="https://i.postimg.cc/3N9J7QY2/octocat-1721133734068.png" alt="Meu Octocat" align="right" width="320" style="float:right; margin: 0; padding: 0"/>
+  <img src="https://i.postimg.cc/3N9J7QY2/octocat-1721133734068.png" alt="Octocat de Vitória" align="right" width="320" style="float:right; margin: 0; padding: 0"/>
 </div>
 
 <section align="center">
