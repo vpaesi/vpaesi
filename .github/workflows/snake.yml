@@ -13,11 +13,17 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Create dist directory
+        run: mkdir -p ./dist
+
       - uses: Platane/snk@master
         with:
           github_user_name: vpaesi
           outputs: |
             ./dist/github-contribution-grid-snake.svg
+
+      - name: Check if file exists
+        run: ls -l ./dist
 
       - name: Push to GitHub
         uses: crazy-max/ghaction-github-pages@v3
