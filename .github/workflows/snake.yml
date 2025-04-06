@@ -1,0 +1,33 @@
+name: Generate Snake
+
+on:
+  push:
+    branches:
+      - dev
+      - main
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create dist directory
+        run: mkdir -p ./dist
+
+      - uses: Platane/snk@master
+        with:
+          github_user_name: vpaesi
+          svg_out_path: ./dist/github-contribution-grid-snake.svg
+
+      - name: Check if file exists
+        run: ls -l ./dist
+
+      - name: Push to GitHub
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
