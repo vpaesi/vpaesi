@@ -19,8 +19,7 @@ jobs:
       - uses: Platane/snk@master
         with:
           github_user_name: vpaesi
-          outputs: |
-            ./dist/github-contribution-grid-snake.svg
+          svg_out_path: ./dist/github-contribution-grid-snake.svg
 
       - name: Check if file exists
         run: ls -l ./dist
