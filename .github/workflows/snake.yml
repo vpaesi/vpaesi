@@ -16,7 +16,7 @@ jobs:
       - name: Create dist directory
         run: mkdir -p ./dist
 
-      - uses: Platane/snk@v2.0.0
+      - uses: Platane/snk@master
         with:
           github_user_name: vpaesi
           svg_out_path: ./dist/github-contribution-grid-snake.svg
