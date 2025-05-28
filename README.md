@@ -1,5 +1,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=Vitória%20de%20Camargo"/>
 
+<div align="center">  
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Bem+vindo+ao+meu+GitHub!+%3AD;Pode+me+chamar+de+Vi;Sou+estudante+de+ADS;Atuo+como+QA;E+tamb%C3%A9m+gosto+bastante+do+Front-end)](https://git.io/typing-svg)
 
 ### Tecnologias:
@@ -21,22 +23,21 @@
   ![Miro](https://img.shields.io/badge/Miro-050038?style=for-the-badge&logo=miro&logoColor=FFD02F)
   ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
   ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-
+</div>
 </br>
 
-<div>
-  
-#### Estatísticas e Contribuições:
-  <a href="https://github.com/vpaesi">   
-    <img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vpaesi&layout=compact&langs_count=7&theme=dracula&v=1"/>
-  </a>
-
-![snake gif](https://raw.githubusercontent.com/vpaesi/vpaesi/output/github-contribution-grid-snake.svg)
-
-</div>
-
-![Grafico de atividade no github](https://github-readme-activity-graph.vercel.app/graph?username=vpaesi&bg_color=0d1117&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true)
-
+<table align="center" border="transparent">
+  <tr>
+    <td>
+      <a href="https://github.com/vpaesi">
+        <img loading="lazy" height="200px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vpaesi&layout=compact&langs_count=7&theme=dracula&v=1"/>
+      </a>
+    </td>
+    <td>
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=vpaesi&bg_color=0d1117&color=ffffff&line=ffffff&point=ffffff&area=true&hide_border=true" style="width: 46em"/>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   
